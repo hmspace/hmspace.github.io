@@ -1,0 +1,18 @@
+body {
+	background-color: #97d5ca;
+	font-family: districtthin, sans;
+}
+
+
+h1, h5, p {
+	color: #414445;
+}
+h5 :link {
+color: #white;
+}
+a:visited {
+color: #999999;
+}
+a:hover {
+color: #f06796;
+} 
