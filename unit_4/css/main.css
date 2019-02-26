@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Pacifico');
+
+
+body {
+	background-color: #f4f0ea;
+	font-family: open sans, sans;
+	text-align: center;
+	width: 100%
+	/*background: url("images/mural1.jpg");
+	background-size: cover;  97d5ca */
+
+}
+
+h1 {
+	font-family: "Pacifico", sans;
+	font-size: 38;
+	font-weight: bold;
+
+}
+h1, p {
+	color: #414445;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+h5 {
+	font-size: .9em
+
+}
+
+p {
+font-size: 16px}
+
+capital {font-weight: bold;
+} 
+
+a:visited {
+color: #999999;
+}
+a:hover {
+color: #f06796;
+} 
+
+
+
+#animation {width: 12px;
+
+}
+
+#title {font-size: 25px;
+		color: #97d5ca;
+		font-family: "HipsterishFontNormal", serif;
+
+}
+#slogan {
+	font-family: "HipsterishFontNormal", serif;
+	font-size: 22px;
+	color: ##414445;
+	padding-top: 0px
+}
+
+#width {width: 80%;
+margin: 0 0 1rem 0;
+position: relative;
+}
+
+hr {width: 65%;
+	background-color: #97d5ca;
+    border: 0 none;
+    color: #97d5ca;
+    height: 1px;
+}
+
+ul {
+/* padding: 570px; */
+padding-top: 0px;
+padding-bottom: 0px;
+color: #97d5ca;
+	margin-top: 2px;
+	margin-bottom: 2px;
+
+}
+
+img {
+	width: 300px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
