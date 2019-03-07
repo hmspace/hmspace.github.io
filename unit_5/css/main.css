@@ -1,0 +1,123 @@
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+      display:flex;
+  align-items:center;
+  justify-content:center;
+
+}
+#pplogo {width: 250px;
+padding-left: 0;
+}
+
+nav {
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+font-family: districtthin, sans-serif;
+display: inline; 
+font-size: 16px;
+text-transform: uppercase;
+letter-spacing: .1em;
+padding: 1 0 0 2em;
+     display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+section {
+	    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+font-family: districtthin, sans-serif;
+display: inline; 
+font-size: 16px;
+text-transform: uppercase;
+letter-spacing: .1em;
+padding: 0 0 0 2em;
+     display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+article {
+	    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+font-family: districtthin, sans-serif;
+display: inline; 
+font-size: 16px;
+text-transform: uppercase;
+letter-spacing: .1em;
+padding: 0 0 0 2em;
+     display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+a {text-decoration: none; 
+}
+a:visited {
+color: #525353;
+}
+a:hover {
+color: #f06796;
+
+} 
+
+span { padding: 0 0 0 1em; 
+ }
+
+.article1 {
+display: inline-block;
+padding: 0;
+border: 0;
+}
+
+
+img {
+	width:40%; 
+	padding: 0;
+	border: 0;
+	opacity: 0.8;
+}
+
+h3 {
+font-family: districtthin, sans-serif;
+font-size: 2em;
+letter-spacing: .1em;
+text-align: left;
+color: #525353;
+position: absolute;
+top: 50%;
+left: 5%;
+padding: 0;
+margin: 0;
+}
+
+#right {
+	left: 45%;
+}
+
+ footer {
+ background-color: #FF957E;
+ border: 1px black solid;
+ padding: 20px;
+font-family: districtthin, sans-serif;
+font-size: .8em;
+letter-spacing: .1em;
+text-align: center;
+color: #525353;
+
+
+padding: 1em 2em 1em 2em; 
+margin: 0;	
+}
+
+h5 {
+	font-size: 1em
+}
+
+#animation {width: 13px;
+}
