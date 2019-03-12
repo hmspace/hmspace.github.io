@@ -1,3 +1,10 @@
+@font-face {
+font-family: "DistrictThin";
+src: url("css/fonts/DistrictThin.ttf");
+src:
+url("css/fonts/DistrictThin.ttf") format(".ttf");
+}
+
 header {
   /*   background-color: #FFED74;
     border: 1px black solid;*/
