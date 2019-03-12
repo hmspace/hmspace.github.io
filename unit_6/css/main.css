@@ -1,0 +1,192 @@
+header {
+  /*   background-color: #FFED74;
+    border: 1px black solid;*/
+    padding: 20px; 
+      display:flex;
+  align-items:center;
+  justify-content:center;
+
+}
+#pplogo {width: 250px;
+padding-left: 0;
+}
+
+nav {
+ /*	background-color: #E8C66A;
+   border: 1px black solid; */
+    padding: 20px;
+font-family: districtthin, sans-serif;
+display: inline; 
+font-size: 20px;
+text-transform: uppercase;
+letter-spacing: .1em;
+padding: 0 0 3 0em;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+
+section {
+/* background-color: #FFE2B8; */
+padding: 20px;
+font-family: districtthin, sans-serif;
+display: inline; 
+font-size: 16px;
+text-transform: uppercase;
+letter-spacing: .1em;
+padding: 0 0 0 0em;
+display:flex;
+/*justify-content:center;
+align-items:center; */
+}
+
+
+/* #one {
+border: 0px;
+} */
+
+
+a {text-decoration: none; 
+}
+a:visited {
+color: #525353;
+}
+a:hover {
+color: #f06796;
+
+} 
+
+span { padding: 0 0 0 2em; 
+ }
+
+
+.bold {
+font-weight: bold;
+} 
+
+.level2 {
+  font-size: 2em;
+
+}
+.level3 {
+  font-size: 1.3em;
+
+}
+
+#article1 {
+  float: left;
+display: inline-block;
+position: relative;
+border-bottom: none;
+padding: 1 1 0 0;
+width: 50%;
+}
+
+#article2 {
+  float: left;
+display: inline-block;
+position: relative;
+border-bottom: none;
+padding: 1 1 0 0;
+width: 50%;
+}
+
+#article3 {
+position: relative;
+border-bottom: none;
+padding: 1 1 0 0;
+width: 50%;
+}
+
+#article4 {
+  float: left;
+display: inline-block;
+position: relative;
+border-bottom: none;
+padding: 1 1 0 0;
+width: 50%;
+}
+
+img {
+width:100%;
+padding: 0;
+border: 0;
+/*  opacity: 0.8; */
+}
+
+h3 {
+font-family: districtthin, sans-serif;
+font-size: 2em;
+letter-spacing: .1em;
+text-align: left;
+color: #525353;
+position: absolute;
+top: 50%;
+left: 0%;
+padding: 15px;
+background: rgba(255, 255, 255, 0.7);
+}
+
+h5 {
+	font-size: 1em
+}
+
+
+#animation {width: 13px;
+}
+
+#two_column {
+background-color: #e6f0ef;
+/* border: 1px black solid; */
+padding: 0px;
+width: 100%;
+
+
+
+}
+
+#left {
+ background-color: #d8eae9;
+ /*      border: 1px black solid; */ 
+      padding: 20px;
+    margin: 0px;
+    float: left;
+    width: 30%;
+    font-size: 3em;
+}
+
+#right {
+   /* background-color: pink;
+    border: 1px black solid; */
+    padding: 20px;
+    float: right;   
+    width: 70%;
+
+    text-transform: lowercase;
+    vertical-align: text-top;
+}
+
+
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+ footer {
+ /* background-color: #FF957E;
+ border: 1px black solid; */
+ padding: 20px;
+font-family: districtthin, sans-serif;
+font-size: .8em;
+letter-spacing: .1em;
+text-align: center;
+color: #525353;
+padding: 1em 2em 1em 2em; 
+margin: 0;  
+}
