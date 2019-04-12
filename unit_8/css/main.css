@@ -99,7 +99,6 @@ h5 {
     float: left;
     width: 30%;
     font-size: 3em;
-
 }
 
 #right {
@@ -109,21 +108,6 @@ h5 {
     text-transform: lowercase;
     background: #f1f2f2;
 }
-
-
- #box article {
-
-
-  position:relative;
-  display: inline;
- opacity: 0.8; 
-}
-
-
-.box {
-
-}
-
 
 }
  .clearfix:after {
