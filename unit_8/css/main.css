@@ -1,0 +1,191 @@
+@font-face {
+  font-family: "DistrictThin";
+  src:url("css/fonts/DistrictThin.ttf") format(".ttf");
+}
+* {margin:0; padding:0; box-sizing:border-box; }
+body {
+  color:#525353;
+  font-family:"DistrictThin", sans-serif;
+  font-size:16px;
+  line-height:1.375;
+}
+header {
+  padding: 1em;
+  text-align: center;
+}
+#pplogo {
+  width: 250px;
+}
+
+nav {
+ /* background-color: #E8C66A;
+   border: 1px black solid; */
+ font-size: 1.5em;
+ text-transform: uppercase;
+ letter-spacing: .1em;
+}
+nav a {
+  display:inline-block;
+  padding:1em;
+}
+
+ #products div {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  width: 50%;
+  float: left;
+  position:relative;
+}
+
+
+#products img {
+  width:99%;
+  display: inline;
+ opacity: 0.8; 
+}
+
+#products a {
+  color:inherit;
+}
+
+#products a:hover {
+color: #f06796;
+}
+
+a {text-decoration: none; 
+}
+a:visited {
+color: #787e7f;
+}
+a:hover {
+color: #f06796;
+
+} 
+.bold {line-height: 1;} 
+
+.level2 {
+  font-size: 2em;
+
+}
+.level3 {
+  font-size: 1.3em;
+  padding: 0.5em;
+
+}
+
+h3 {
+  font-size: 2em;
+  letter-spacing: .1em;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform:translateY(-50%);
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+h5 {
+  font-size: 1em
+}
+
+
+#animation {width: 1em;
+ }
+
+#left {
+ background-color: #d8eae9;
+    padding: 0.3em;
+    float: left;
+    width: 30%;
+    font-size: 3em;
+
+}
+
+#right {
+    padding: 0.7em;
+    float: right;   
+    width: 70%;
+    text-transform: lowercase;
+    background: #f1f2f2;
+}
+
+
+ #box article {
+
+
+  position:relative;
+  display: inline;
+ opacity: 0.8; 
+}
+
+
+.box {
+
+}
+
+
+}
+ .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+ #copy {
+font-size: 1em;
+letter-spacing: .1em;
+text-align: center;
+color: #525353;
+padding: 1em 2em 1em 2em; 
+display: block;
+}
+
+
+hr { 
+width: 100%;
+    opacity: .1;
+}
+
+@media only screen and (max-width: 800px) {
+#left {
+    font-size: 2.5em;
+}
+#right {
+        font-size: 0.8em;
+}
+nav a {
+  padding:0.5em;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  nav a {
+   margin: 0 0.2em 0.2em;
+  display:block;
+  padding:0.5em;
+  background: #f1f2f2 ; 
+  }
+
+  #products img {
+  width:99%;
+  display: block;
+  float: none;
+ opacity: 0.8; 
+}
+ #products div {
+  letter-spacing: .1em;
+  width: 99%;
+}
+#left {
+    font-size: 2em;
+}
+
+#right {
+        font-size: 0.7em;
+}
+}
+
