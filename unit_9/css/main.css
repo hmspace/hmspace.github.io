@@ -1,0 +1,305 @@
+@font-face {
+  font-family: "DistrictThin";
+  src:url("css/fonts/DistrictThin.ttf") format(".ttf");
+}
+* {margin:0; padding:0; box-sizing:border-box; }
+body {
+  color:#525353;
+  font-family:"DistrictThin", sans-serif;
+  font-size:16px;
+  line-height:1.375;
+}
+header {
+  padding: 1em;
+  text-align: center;
+}
+#logo {
+  width: 250px;
+}
+
+#textdown {
+  border: 1px;
+  background: red;
+}
+
+nav {
+ font-size: 1.5em;
+ text-transform: uppercase;
+ letter-spacing: .1em;
+ padding: 0em;
+ line-height: 1em;
+}
+
+nav a {
+  display:inline-block;
+  padding:1em;
+}
+
+ #products div {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  width: 50%;
+  float: left;
+  position:relative;
+}
+
+#products img {
+  width:100%;
+  display: inline;
+}
+
+#products a {
+  color:inherit;
+}
+
+#products a:hover {
+color: #f06796;
+}
+
+a {text-decoration: none; 
+color: #787e7f;
+}
+
+a:visited {
+color: #787e7f;
+}
+
+a:hover {
+color: #f06796;
+} 
+
+.slogan {
+font-size: 1.1em;
+padding: 0.5em;
+letter-spacing: 2px;
+opacity: .6;
+}
+
+h3 {
+  font-size: 2em;
+  letter-spacing: .1em;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform:translateY(-50%);
+  padding: .3em;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+#left {
+  background-color: #d8eae9;
+  padding: 0.3em;
+  float: left;
+  width: 30%;
+  font-size: 3em;
+  line-height: 1;
+}
+
+.level2 {
+  font-size: 2em;
+}
+
+#right {
+  padding: 0.7em;
+  float: right;   
+  width: 70%;
+  text-transform: lowercase;
+  background: #f1f2f2;
+}
+
+.clearfix {
+  clear: both;
+  display: flex;
+  margin: 0px
+}
+
+.clearfix #left {
+  flex: 1;
+}
+
+.clearfix #right {
+  flex: 2;
+}
+
+ .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+/* footer */
+
+#animation {width: 1em;
+}
+
+ #copy {
+font-size: 1em;
+letter-spacing: .1em;
+text-align: center;
+color: #525353;
+padding: 1em 2em 1em 2em; 
+display: block;
+width:100%;
+}
+
+#copy a:visited {
+color: #787e7f;
+}
+#copy a:hover {
+color: #f06796;
+}
+
+
+/*
+craft kits page */
+
+#productscraft .row {
+  clear: both;
+  display: flex;
+  width: 100%;
+}
+
+#productscraft .row div {
+  display: flex;
+  flex: 1;
+  margin: 0;
+  width: 50%;
+}
+
+#productscraft .row div img {
+  width: 100%;
+  align-self: center;
+}
+
+#productscraft .row div p {
+  flex: 1;
+  font-size: 2.5em;
+  padding: 5%;
+  width: 100%;
+  line-height: 1.2em;
+}
+
+#leftmural {
+    background-color: #d8eae9;
+}
+
+#leftmural2 {
+    background-color: #d8eadc;
+}
+
+#thumbnail {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+#thumbnail div {
+  flex: 1;
+  margin-top: 0.2em;
+  position: relative;
+  width: 25%;
+}
+
+#thumbnail div img {
+  align-self: center;
+  width: 100%;
+}
+
+#thumbnail div h3 {
+  top: 75%;
+  width: 100%;
+  text-align: center;
+    text-transform: uppercase;
+     line-height: 1em;
+ font-size: 1.5em;
+}
+
+#thumbnail a {
+  color:inherit;
+}
+
+#thumbnail a:hover {
+color: #f06796;
+}
+
+.craftkits a {
+  background: #f06796;
+}
+
+@media only screen and (max-width: 920px) {
+  #left {
+      font-size: 2.5em;
+  }
+  #right {
+          font-size: 0.8em;
+  }
+
+  nav a {
+    padding:0.5em;
+  }
+
+#productscraft .row div p {
+  font-size: .7em;
+}
+
+#leftmural {
+
+}
+
+#leftmural2 {
+
+}
+
+
+#productscraft .row div p {
+  font-size: 2em;
+  line-height: 1em;
+}
+
+@media only screen and (max-width: 650px) {
+  nav a {
+   margin: 0 0.2em 0.2em;
+  display:block;
+  padding:0.5em;
+  background: #f0f2f2 ; 
+  }
+
+  #products img {
+  width:99%;
+  display: block;
+  float: none;
+ opacity: 0.8; 
+}
+ #products div {
+  letter-spacing: .1em;
+  width: 99%;
+}
+
+#left {
+      font-size: 2.2em;
+  }
+
+#right {
+line-height: 2em;
+font-size: 0.7em;
+}
+
+#productscraft .row div p {
+  font-size: 1.4em;
+  line-height: 1em;
+}
+
+#thumbnail div h3 {
+  top: 60%;
+     line-height: 1.2em;
+ font-size: 1em;
+}
+
+
+
+}
+
